@@ -1,0 +1,16 @@
+.image {
+  width: 100%;
+  height: 60%;
+  /* object-fit: cover; */
+  position: relative;
+}
+
+.image1 {
+  width: 20%;
+  height: 10%;
+  /* object-fit: cover; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}

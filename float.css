@@ -1,0 +1,24 @@
+.floatation {
+  float: left;
+  top: 120px;
+  left: 20px;
+  font-size: 150px;
+  padding-left: 100px;
+  font-style: italic;
+  position: relative;
+  z-index: -1;
+}
+
+.body {
+  width: 550px;
+  background-color: aqua;
+}
+
+.div {
+  float: left;
+  text-align: justify;
+  margin-top: 10px;
+  width: 950px;
+  position: absolute;
+  top: 0px;
+}

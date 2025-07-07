@@ -1,0 +1,135 @@
+body {
+  background-color: gray;
+}
+
+.parent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 65px;
+  position: sticky;
+}
+
+.header1 {
+  height: 100%;
+  flex-basis: 25%;
+}
+
+.image {
+  max-height: 100%;
+  /* width: 100px; */
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 45px;
+  cursor: pointer;
+}
+
+.header2 > a:hover {
+  background-color: black;
+}
+
+.header3 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.header3 > a:hover {
+  background-color: green;
+}
+.header3 > a {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.search {
+  display: flex;
+  width: 70%;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 50px;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  border-radius: 16px;
+  padding: 15px;
+  box-shadow: 2px 2px gray;
+  background-color: white;
+}
+
+.search-div:hover {
+  border-radius: 16px;
+  background-color: aqua;
+  border-right: 1px;
+}
+
+.search-div {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid black;
+}
+
+.search-div > input:hover {
+  color: aqua;
+}
+
+.search-div > input {
+  border: none;
+}
+
+.button {
+  padding: 5px;
+  border-radius: 16px;
+  background-color: palevioletred;
+}
+
+.main-container {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(6 1fr);
+}
+
+.container-img {
+  width: 250px;
+  height: 250px;
+}
+
+.image-grid {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* width: 250px;
+  height: 250px; */
+}
+
+.image-grid img {
+  position: relative;
+  top: 10px;
+  right: 80px;
+  /* bottom: 3px; */
+}
+
+.container-img div {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.image-grid button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: white;
+  color: black;
+}

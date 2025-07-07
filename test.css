@@ -1,0 +1,178 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.master-header {
+  display: flex;
+  background-color: beige;
+  /* width: 100%; */
+  justify-content: space-between;
+}
+
+header1 {
+  display: flex;
+  flex-basis: 25%;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+  flex-basis: 50%;
+  gap: 50px;
+  border: none;
+}
+
+.header3 {
+  display: flex;
+  /* flex-basis: 25%; */
+  gap: 40px;
+  justify-content: flex-end;
+}
+
+.button1 {
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: orchid;
+  border: none;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.my-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.image {
+  border-radius: 20px;
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+
+.div-image {
+  /* display: grid; */
+  /* flex-direction: column; */
+  position: relative;
+}
+
+.div-love {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  /* bottom: 3px; */
+}
+
+.div-olosho {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  color: red;
+}

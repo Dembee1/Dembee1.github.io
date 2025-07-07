@@ -1,0 +1,63 @@
+.box {
+  padding: 10px;
+
+  margin: 5px;
+
+  background: lightblue;
+
+  border: 1px solid navy;
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+
+  width: 200px;
+}
+
+.flex-container {
+  display: flex;
+
+  gap: 10px;
+
+  background: #f2f2f2;
+
+  padding: 10px;
+}
+
+.flex-item {
+  padding: 10px;
+
+  background: lightcoral;
+
+  border: 1px solid darkred;
+
+  flex: 1;
+}
+
+.grid-container {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 10px;
+
+  background: #f9f9f9;
+
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 10px;
+
+  background: lightgreen;
+
+  border: 1px solid darkgreen;
+}

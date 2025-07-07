@@ -1,0 +1,270 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.header {
+  display: flex;
+  /*justify-content: center;*/
+  padding: 20px;
+  background-color: gray;
+  justify-content: center;
+  align-items: flex-end;
+  /*flex-basis: 25%;*/
+}
+
+.header-one {
+  background-color: none;
+  display: flex;
+  flex-basis: 25%;
+}
+
+.header-two {
+  background-color: none;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  justify-content: space-evenly;
+  gap: 40px;
+  flex-basis: 75%;
+}
+
+.header-two a .header-two a:hover {
+  /*text-decoration: none;*/
+  color: chocolate;
+}
+
+.header-three {
+  /*background-color: green;*/
+  display: flex;
+  gap: 25%;
+  /* align-content: flex-end;*/
+}
+
+.header header-three {
+  align-content: flex-end;
+}
+
+.button1 {
+  background-color: greenyellow;
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: orchid;
+
+  border: none;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.header-four {
+  display: inline-block;
+  display: flex;
+  justify-content: first baseline;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  gap: 1rem;
+}
+
+.search-where input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border: none;
+  outline: none;
+  font-size: large;
+  background-color: transparent;
+}
+
+.search-check-in input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border: none;
+  outline: none;
+  font-size: large;
+  background-color: transparent;
+}
+
+.search-check-out input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border: none;
+  outline: none;
+  font-size: large;
+  background-color: transparent;
+}
+
+.search-who input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border: none;
+  outline: none;
+  font-size: large;
+  background-color: transparent;
+}
+
+/*.search input {
+  border: none;
+  outline: none;
+  font-size: large;
+  background-color: transparent;
+}*/
+
+.search-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.homes {
+  display: flex;
+  /* justify-content: flex-start; */
+  justify-content: space-between;
+  flex-direction: row;
+  /*justify-content: center;*/
+  padding: 20px;
+  background-color: gray;
+  /* justify-content: space-evenly; */
+  /* align-items: flex-end; */
+  /* border-radius: 150px/150px; */
+}
+
+.homes single-rooms {
+  border-right: 10px;
+  border-radius: 10px;
+}
+
+.image {
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.single-rooms span {
+  text-align: center;
+}
+
+/* /* .header-two {
+  background-color: none;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  justify-content: space-evenly;
+  gap: 40px;
+  flex-basis: 75%; */

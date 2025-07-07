@@ -1,0 +1,61 @@
+.h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.division1 {
+  background-color: aquamarine;
+  position: relative;
+}
+
+.division2 {
+  background-color: red;
+  position: sticky;
+}
+
+.division3 {
+  background-color: blue;
+}
+
+.division4 {
+  background-color: greenyellow;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: blueviolet;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: bisque;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: red;
+}
+
+.navbar li {
+  float: right;
+}
+body {
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+}
+
+.image {
+  position: relative;
+}
+
+.button {
+  position: fixed;
+}
